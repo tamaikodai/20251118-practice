@@ -1,0 +1,59 @@
+
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+      background-image: url('https://www.kaigaiijyu.com/wp-content/uploads/thunder.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+
+  height: 100vh;
+}
+h2{
+font-family: 'Sitka Subheading',sans-serif;
+}
+p{
+    font-family: 'Sitka Subheading',sans-serif;
+}
+.High, .Medium, .Low {
+    margin: 10px 0;
+}
+
+button {
+    padding: 3px;
+    font-size: 14px;
+    font-family: 'Bebas Neue', sans-serif;
+
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Cambria Math',sans-serif;
+
+
+
+}
+
+.High button {
+    background-color: rgb(113, 0, 0);
+}
+
+.Medium button {
+    background-color: rgb(99, 116, 0);
+}
+
+.Low button {
+    background-color: rgb(0, 89, 0);
+}
+
+button a {
+    color: white;
+    text-decoration: none; 
+}
+
+.High,p {
+    color: rgb(138, 156, 160);
+}
